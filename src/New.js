@@ -39,4 +39,16 @@ const _new = function () {
 // 		return 1;
 // 	})
 // );
-console.log(_new(()=>{a:1}));
+const createNew = (fn, ...arg) => {
+	const obj = {};
+	// Object.setPrototypeOf(obj, fn.prototype);
+	// console.log(fn);
+	obj.__proto__ = fn.prototype;
+	const res = fn.apply(obj, arg);
+	return res instanceof Object ? res : obj;
+};
+
+createNew(function a() {
+	console.log(this, '====');
+	return a;
+});

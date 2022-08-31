@@ -19,6 +19,7 @@ Function.prototype.myCall = function (context) {
 	delete context.fn;
 	return result;
 };
-var obj = { 0: 'hello', 1: 'world', length: 2 };
-
-console.log(Array.prototype.slice.myCall(obj),'___');
+const obj = { 0: 'hello', 1: 'world', length: 2 };
+console.log(obj);
+console.log([].slice.call(obj));
+console.log(Array.prototype.slice.myCall(obj), '___');
