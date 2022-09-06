@@ -7,6 +7,12 @@
  * @Description  : promise.all
  */
 
+/**
+ * 1. 传入参数为一个空的可迭代对象，则直接进行resolve。
+ * 2. 如果参数中有一个promise失败，那么Promise.all返回的promise对象失败
+ * 3. 在任何情况下，Promise.all 返回的 promise 的完成状态的结果都是一个数组
+ */
+ 
 Promise.myAll = list => {
 	return new Promise((resolve, rejected) => {
 		let count = 0;
