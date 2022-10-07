@@ -1,7 +1,17 @@
 # handwriting
+
 High frequency handwritten code
 
-Array
-Function 
-Sort
+## Array
 
+- isArray()
+- map()
+- filter()
+
+## Function
+
+- bind()
+- apply()
+- call()
+
+## Sort
