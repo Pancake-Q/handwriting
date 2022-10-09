@@ -16,3 +16,9 @@ High frequency handwritten code
 
 ## Sort
 
+- BubbleSort
+- InsertSort
+- QuickSort
+- SearchSort
+- SelectSort
+
