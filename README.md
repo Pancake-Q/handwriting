@@ -7,6 +7,7 @@ High frequency handwritten code
 - isArray()
 - map()
 - filter()
+- reduce()
 
 ## Function
 
@@ -22,3 +23,4 @@ High frequency handwritten code
 - SearchSort
 - SelectSort
 
+## 
