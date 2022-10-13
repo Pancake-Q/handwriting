@@ -24,5 +24,10 @@ High frequency handwritten code
 - SelectSort
 
 ## AJAX
+
 - ajax()
 - pAjax()--ts
+
+##
+
+- new()
