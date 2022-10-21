@@ -33,3 +33,4 @@ High frequency handwritten code
 - new()
 - once()
 - Observer()
+- SearchKey()
