@@ -35,3 +35,19 @@ High frequency handwritten code
 - Observer()
 - SearchKey()
 - 
+
+## utils
+
+- average
+- copyText
+- dayDiff
+- elementIsInFocus
+- fahrenheitToCelsius
+- getParameters
+- getSelectedText
+- isEmpty
+- isTabActivity
+- isWeekday
+- judgeDeviceType
+- randomHexColor
+- rgbToHex
