@@ -51,3 +51,4 @@ High frequency handwritten code
 - judgeDeviceType
 - randomHexColor
 - rgbToHex
+- 
