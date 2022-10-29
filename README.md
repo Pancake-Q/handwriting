@@ -34,7 +34,8 @@ High frequency handwritten code
 - once()
 - Observer()
 - SearchKey()
-- 
+- TypeOf()
+- QueryString()
 
 ## utils
 
@@ -51,4 +52,4 @@ High frequency handwritten code
 - judgeDeviceType
 - randomHexColor
 - rgbToHex
-- 
+
