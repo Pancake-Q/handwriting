@@ -53,3 +53,7 @@ High frequency handwritten code
 - randomHexColor
 - rgbToHex
 
+# tree
+
+- DFS
+- BFS
