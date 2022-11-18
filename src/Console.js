@@ -7,6 +7,12 @@
  * @Description  : console methods
  */
 
+//  %s 字符串(整数、小数也可以打印)
+//  %d 整数
+//  %f 小数
+//  %o 对象
+//  %c 后面字符串的样式
+
 console.clear(); //Console was clered
 console.count(); //Console was count++
 console.countReset(); //Console was count clered
@@ -28,28 +34,34 @@ console.timeStamp(); //该特性是非标准的，请尽量不要在生产环境
 console.trace(); //当前执行的代码在堆栈中的调用路径。
 console.warn(); //警告
 // console.memory(); //当前内存的使用情况
-const users = [ 
-	{ 
-		 "first_name":"Harcourt",
-		 "last_name":"Huckerbe",
-		 "gender":"Male",
-		 "city":"Linchen",
-		 "birth_country":"China"
-	},
-	{ 
-		 "first_name":"Allyn",
-		 "last_name":"McEttigen",
-		 "gender":"Male",
-		 "city":"Ambelókipoi",
-		 "birth_country":"Greece"
-	},
-	{ 
-		 "first_name":"Sandor",
-		 "last_name":"Degg",
-		 "gender":"Male",
-		 "city":"Mthatha",
-		 "birth_country":"South Africa"
-	}
-]
+const users = [
+  {
+    first_name: "Harcourt",
+    last_name: "Huckerbe",
+    gender: "Male",
+    city: "Linchen",
+    birth_country: "China",
+  },
+  {
+    first_name: "Allyn",
+    last_name: "McEttigen",
+    gender: "Male",
+    city: "Ambelókipoi",
+    birth_country: "Greece",
+  },
+  {
+    first_name: "Sandor",
+    last_name: "Degg",
+    gender: "Male",
+    city: "Mthatha",
+    birth_country: "South Africa",
+  },
+];
 
-console.table(users, ['first_name', 'last_name', 'gender','city','birth_country']);
+console.table(users, [
+  "first_name",
+  "last_name",
+  "gender",
+  "city",
+  "birth_country",
+]);
