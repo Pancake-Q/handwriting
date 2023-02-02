@@ -61,3 +61,5 @@ High frequency handwritten code
 ##
 
 - console
+
+## 轮询请求
